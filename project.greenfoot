@@ -1,11 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
-<<<<<<< HEAD
->>>>>>>=813b27d4bb7a2c3d867e4bf39a5442f331fe39c2
-=======
->>>>>>>=bbdeef4a7b9fdcbb851bc609c453daadbbdd2ebb
->>>>>>> 0c16153131783a31d8f091406ac2de33daf41f58
+>>>>>>>=0c16153131783a31d8f091406ac2de33daf41f58
 class.MyWorld.image=bathroom-tile.jpg
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=baby1.png
@@ -13,32 +9,14 @@ class.YSD.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
 mainWindow.x=371
-<<<<<<< HEAD
 mainWindow.y=510
-=======
-mainWindow.y=482
->>>>>>> 0c16153131783a31d8f091406ac2de33daf41f58
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=605
-<<<<<<< HEAD
-target1.editor.y=370
-=======
 target1.editor.y=314
-<<<<<<< HEAD
-=======
-=======
-<<<<<<< HEAD
-target1.editor.y=314
-=======
-target1.editor.y=286
->>>>>>> bbdeef4a7b9fdcbb851bc609c453daadbbdd2ebb
->>>>>>> c23ad6eccce22a0612401fdadba8963607efab8f
->>>>>>> dc14a7bdde4b855bbacb52a9868556f8dccf25d1
->>>>>>> 0c16153131783a31d8f091406ac2de33daf41f58
 target1.height=50
 target1.name=YSD
 target1.naviview.expanded=true
