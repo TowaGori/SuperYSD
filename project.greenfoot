@@ -9,7 +9,15 @@ class.YSD.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
 mainWindow.x=371
+<<<<<<< HEAD
 mainWindow.y=482
+=======
+<<<<<<< HEAD
+mainWindow.y=426
+=======
+mainWindow.y=454
+>>>>>>> 89266b39f625f8fff8f1f41f8c0ea00466f55941
+>>>>>>> bbdeef4a7b9fdcbb851bc609c453daadbbdd2ebb
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
