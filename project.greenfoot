@@ -6,18 +6,42 @@ class.MyWorld.image=bathroom-tile.jpg
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=baby1.png
 class.YSD.superclass=greenfoot.Actor
+<<<<<<< HEAD
+<<<<<<< HEAD
 mainWindow.height=546
 mainWindow.width=856
+mainWindow.x=318
+mainWindow.y=322
+package.numDependencies=0
+package.numTargets=2
+project.charset=UTF-8
+target1.editor.height=700
+target1.editor.width=900
+target1.editor.x=105
+target1.editor.y=100
+target1.height=50
+=======
+target1.width=80
+mainWindow.y=286
+=======
+mainWindow.height=546
+mainWindow.width=856
+>>>>>>> 7ae5d754312b7dee39c55247e3f6737c0b9dc29d
 mainWindow.x=371
 mainWindow.y=454
 package.numDependencies=0
 package.numTargets=2
+<<<<<<< HEAD
+mainWindow.width=856
+>>>>>>> 08a53a84f32f288949082ad128c98f48977ae5c5
+=======
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=605
 target1.editor.y=286
 target1.height=50
+>>>>>>> 7ae5d754312b7dee39c55247e3f6737c0b9dc29d
 target1.name=YSD
 target1.naviview.expanded=true
 target1.showInterface=false

@@ -14,12 +14,21 @@ public class YSD extends Actor
      */
     public void act() 
     {
+<<<<<<< HEAD
+<<<<<<< HEAD
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(1);
+}// Add your action code here.
+=======
+=======
         
         if( Greenfoot.isKeyDown( "right" ) ){
         setRotation(0);
         move(1);
     }// Add your action code here.
 
+>>>>>>> 2c01382000f91083f601eaeaface6592cd72dce0
         if( Greenfoot.isKeyDown( "up" ) ){
         setRotation(270);
         move(1);
@@ -29,6 +38,10 @@ public class YSD extends Actor
         move(1);
     
        }// Add your action code here.
+<<<<<<< HEAD
+>>>>>>> 08a53a84f32f288949082ad128c98f48977ae5c5
+=======
 
+>>>>>>> 2c01382000f91083f601eaeaface6592cd72dce0
     }    
 }
