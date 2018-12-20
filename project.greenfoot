@@ -1,6 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=c23ad6eccce22a0612401fdadba8963607efab8f
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
 class.MyWorld.superclass=greenfoot.World
@@ -10,6 +11,17 @@ mainWindow.height=906
 mainWindow.width=1409
 mainWindow.x=425
 mainWindow.y=214
+=======
+>>>>>>>=0c16153131783a31d8f091406ac2de33daf41f58
+class.MyWorld.image=bathroom-tile.jpg
+class.MyWorld.superclass=greenfoot.World
+class.YSD.image=baby1.png
+class.YSD.superclass=greenfoot.Actor
+mainWindow.height=546
+mainWindow.width=856
+mainWindow.x=371
+mainWindow.y=510
+>>>>>>> dcf18555cd4bcb2a82cb742e89e5bd9ce1ce23cb
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
