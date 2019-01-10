@@ -2,7 +2,11 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
 <<<<<<< HEAD
+>>>>>>>=dc14a7bdde4b855bbacb52a9868556f8dccf25d1
+=======
+<<<<<<< HEAD
 >>>>>>>=1202d495afae08ee34bc44b5e97ffe7f2217b00e
+>>>>>>> db33f8c58fba4826ff8557726324b8e81c0d9731
 class.MyWorld.image=bathroom-tile.jpg
 =======
 >>>>>>>=427ad7507bef0a48840a88c14901cefa890fb608
@@ -20,6 +24,10 @@ mainWindow.y=142
 mainWindow.height=546
 mainWindow.width=856
 <<<<<<< HEAD
+mainWindow.x=209
+mainWindow.y=454
+=======
+<<<<<<< HEAD
 mainWindow.x=371
 mainWindow.y=534
 =======
@@ -33,7 +41,11 @@ project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=605
+<<<<<<< HEAD
+target1.editor.y=286
+=======
 target1.editor.y=370
+>>>>>>> db33f8c58fba4826ff8557726324b8e81c0d9731
 target1.height=50
 target1.name=YSD
 target1.naviview.expanded=true
