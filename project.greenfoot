@@ -8,15 +8,25 @@ class.YSD.image=baby1.png
 class.YSD.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
+<<<<<<< HEAD
 mainWindow.x=200
 mainWindow.y=309
+=======
+mainWindow.x=367
+mainWindow.y=442
+>>>>>>> c062a8c9f801ec2d9bbff3c6d3292bf623545f16
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
+<<<<<<< HEAD
 target1.editor.x=978
 target1.editor.y=184
+=======
+target1.editor.x=605
+target1.editor.y=380
+>>>>>>> c062a8c9f801ec2d9bbff3c6d3292bf623545f16
 target1.height=50
 target1.name=YSD
 target1.naviview.expanded=true
