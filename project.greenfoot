@@ -1,22 +1,35 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=0c16153131783a31d8f091406ac2de33daf41f58
+<<<<<<< HEAD
+>>>>>>>=1202d495afae08ee34bc44b5e97ffe7f2217b00e
 class.MyWorld.image=bathroom-tile.jpg
+=======
+>>>>>>>=427ad7507bef0a48840a88c14901cefa890fb608
+class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
+>>>>>>> 52581521de271b039bdf91077f9b582eb1e8a112
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=baby1.png
 class.YSD.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
+<<<<<<< HEAD
 mainWindow.x=371
 mainWindow.y=534
+<<<<<<< HEAD
+=======
+=======
+mainWindow.x=367
+mainWindow.y=414
+>>>>>>> 52581521de271b039bdf91077f9b582eb1e8a112
+>>>>>>> db33f8c58fba4826ff8557726324b8e81c0d9731
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=605
-target1.editor.y=314
+target1.editor.y=370
 target1.height=50
 target1.name=YSD
 target1.naviview.expanded=true
@@ -26,8 +39,13 @@ target1.typeParameters=
 target1.width=80
 target1.x=160
 target1.y=10
+target2.editor.height=700
+target2.editor.width=900
+target2.editor.x=105
+target2.editor.y=80
 target2.height=50
 target2.name=MyWorld
+target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
