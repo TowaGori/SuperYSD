@@ -1,71 +1,22 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
-<<<<<<< HEAD
->>>>>>>=e9c374c100fd4c345c06fe7c3574272b7fbfd497
-=======
-<<<<<<< HEAD
->>>>>>>=d2955537a0dd3fefc2078cd0701ee3dd066c6543
-=======
-<<<<<<< HEAD
->>>>>>>=dcf18555cd4bcb2a82cb742e89e5bd9ce1ce23cb
-=======
-<<<<<<< HEAD
->>>>>>>=89266b39f625f8fff8f1f41f8c0ea00466f55941
-=======
-<<<<<<< HEAD
->>>>>>>=c23ad6eccce22a0612401fdadba8963607efab8f
->>>>>>> 1202d495afae08ee34bc44b5e97ffe7f2217b00e
->>>>>>> 427ad7507bef0a48840a88c14901cefa890fb608
+>>>>>>>=427ad7507bef0a48840a88c14901cefa890fb608
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
-class.MyWorld.superclass=greenfoot.World
-class.YSD.image=baby1.png
-class.YSD.superclass=greenfoot.Actor
-<<<<<<< HEAD
-mainWindow.height=901
-mainWindow.width=1371
-mainWindow.x=211
-mainWindow.y=126
-=======
-<<<<<<< HEAD
-mainWindow.height=1028
-mainWindow.width=1380
-mainWindow.x=387
-mainWindow.y=52
-=======
-mainWindow.height=906
-mainWindow.width=1409
-mainWindow.x=425
-mainWindow.y=214
-=======
->>>>>>>=0c16153131783a31d8f091406ac2de33daf41f58
->>>>>>> d2955537a0dd3fefc2078cd0701ee3dd066c6543
->>>>>>> e9c374c100fd4c345c06fe7c3574272b7fbfd497
-class.MyWorld.image=bathroom-tile.jpg
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=baby1.png
 class.YSD.superclass=greenfoot.Actor
 mainWindow.height=546
 mainWindow.width=856
-mainWindow.x=371
-<<<<<<< HEAD
-mainWindow.y=534
-=======
-mainWindow.y=510
-<<<<<<< HEAD
-=======
->>>>>>> dcf18555cd4bcb2a82cb742e89e5bd9ce1ce23cb
->>>>>>> d2955537a0dd3fefc2078cd0701ee3dd066c6543
->>>>>>> e9c374c100fd4c345c06fe7c3574272b7fbfd497
->>>>>>> 1202d495afae08ee34bc44b5e97ffe7f2217b00e
->>>>>>> 427ad7507bef0a48840a88c14901cefa890fb608
+mainWindow.x=367
+mainWindow.y=414
 package.numDependencies=0
 package.numTargets=2
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=605
-target1.editor.y=342
+target1.editor.y=370
 target1.height=50
 target1.name=YSD
 target1.naviview.expanded=true
