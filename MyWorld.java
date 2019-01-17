@@ -17,9 +17,8 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1123, 794, 1); 
-        
-    }
-    
+
+}
     public void act()
     {
     if( Greenfoot.isKeyDown( "enter" ) ){
@@ -30,5 +29,15 @@ public class MyWorld extends World
         World game = new help();
         Greenfoot.setWorld( game );
     }
+            
+        if( Greenfoot.isKeyDown( "e" ) ){
+            System.exit(0);
+
     }
+    
+    
+    
+    }
+
 }
+
