@@ -1,46 +1,37 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
-<<<<<<< HEAD
->>>>>>>=db33f8c58fba4826ff8557726324b8e81c0d9731
-=======
->>>>>>>=c062a8c9f801ec2d9bbff3c6d3292bf623545f16
->>>>>>> e7fc871059f764b10b0d3510cf7d518bcd8e906c
+>>>>>>>=e7fc871059f764b10b0d3510cf7d518bcd8e906c
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=baby1.png
 class.YSD.superclass=greenfoot.Actor
-<<<<<<< HEAD
-mainWindow.height=1056
-mainWindow.width=1855
-mainWindow.x=65
-mainWindow.y=24
-package.numDependencies=0
-package.numTargets=2
-project.charset=UTF-8
-target1.editor.height=700
-target1.editor.width=900
-target1.editor.x=774
-target1.editor.y=131
-=======
 class.game.image=bathroom-tile.jpg
 class.game.superclass=greenfoot.World
 class.help.superclass=greenfoot.World
 dependency1.from=MyWorld
 dependency1.to=game
 dependency1.type=UsesDependency
+dependency2.from=MyWorld
+dependency2.to=help
+dependency2.type=UsesDependency
+dependency3.from=game
+dependency3.to=MyWorld
+dependency3.type=UsesDependency
+dependency4.from=game
+dependency4.to=YSD
+dependency4.type=UsesDependency
 mainWindow.height=940
 mainWindow.width=1379
 mainWindow.x=388
-mainWindow.y=52
-package.numDependencies=1
+mainWindow.y=80
+package.numDependencies=4
 package.numTargets=4
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
 target1.editor.y=72
->>>>>>> e7fc871059f764b10b0d3510cf7d518bcd8e906c
 target1.height=50
 target1.name=help
 target1.naviview.expanded=true
@@ -52,13 +43,8 @@ target1.x=160
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
-<<<<<<< HEAD
-target2.editor.x=286
-target2.editor.y=116
-=======
 target2.editor.x=105
-target2.editor.y=72
->>>>>>> e7fc871059f764b10b0d3510cf7d518bcd8e906c
+target2.editor.y=52
 target2.height=50
 target2.name=game
 target2.naviview.expanded=true
@@ -83,8 +69,8 @@ target3.x=160
 target3.y=10
 target4.editor.height=700
 target4.editor.width=900
-target4.editor.x=595
-target4.editor.y=52
+target4.editor.x=1151
+target4.editor.y=372
 target4.height=50
 target4.name=MyWorld
 target4.naviview.expanded=true
