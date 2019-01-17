@@ -26,5 +26,9 @@ public class MyWorld extends World
         World game = new game();
         Greenfoot.setWorld( game );
     }
+    else if( Greenfoot.isKeyDown( "h" ) ){
+        World game = new help();
+        Greenfoot.setWorld( game );
+    }
     }
 }
