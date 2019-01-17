@@ -6,7 +6,11 @@ class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=baby1.png
 class.YSD.superclass=greenfoot.Actor
+<<<<<<< HEAD
 class.game.image=bathroom-tile.jpg
+=======
+class.game.image=\u57FA\u672C\u80CC\u666F.jpg
+>>>>>>> c321a7e2726abccef834e0ad0269a16c676426cf
 class.game.superclass=greenfoot.World
 class.help.image=help.jpg
 class.help.superclass=greenfoot.World
@@ -26,7 +30,11 @@ project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
 target1.editor.x=105
+<<<<<<< HEAD
 target1.editor.y=72
+=======
+target1.editor.y=100
+>>>>>>> c321a7e2726abccef834e0ad0269a16c676426cf
 target1.height=50
 target1.name=help
 target1.naviview.expanded=true
