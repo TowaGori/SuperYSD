@@ -1,15 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
-<<<<<<< HEAD
->>>>>>>=20cf9d0f47fde20f28f4c87371a7cbb521177b0f
-=======
-<<<<<<< HEAD
->>>>>>>=e7fc871059f764b10b0d3510cf7d518bcd8e906c
-=======
->>>>>>>=20cf9d0f47fde20f28f4c87371a7cbb521177b0f
->>>>>>> 5f0299d98ce73460ac4e4a6b40a1d1c7efbbf63d
->>>>>>> f0c6e053f2315843fb881722d069bd7e0d51f860
+>>>>>>>=5f0299d98ce73460ac4e4a6b40a1d1c7efbbf63d
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=baby1.png
@@ -24,38 +16,20 @@ dependency1.type=UsesDependency
 dependency2.from=MyWorld
 dependency2.to=help
 dependency2.type=UsesDependency
-<<<<<<< HEAD
-dependency3.from=game
-dependency3.to=MyWorld
+dependency3.from=help
+dependency3.to=game
 dependency3.type=UsesDependency
 dependency4.from=game
 dependency4.to=YSD
 dependency4.type=UsesDependency
+dependency5.from=game
+dependency5.to=MyWorld
+dependency5.type=UsesDependency
 mainWindow.height=940
 mainWindow.width=1379
-<<<<<<< HEAD
-mainWindow.x=298
-mainWindow.y=104
-=======
-mainWindow.x=388
-mainWindow.y=80
-package.numDependencies=4
-=======
-dependency3.from=help
-dependency3.to=game
-dependency3.type=UsesDependency
-mainWindow.height=940
-mainWindow.width=1379
-mainWindow.x=388
-<<<<<<< HEAD
-mainWindow.y=108
->>>>>>> f0c6e053f2315843fb881722d069bd7e0d51f860
-package.numDependencies=2
-=======
-mainWindow.y=140
-package.numDependencies=3
->>>>>>> 3c563ca640edd886be029365c952b9cf85837b5e
->>>>>>> 5f0299d98ce73460ac4e4a6b40a1d1c7efbbf63d
+mainWindow.x=236
+mainWindow.y=69
+package.numDependencies=5
 package.numTargets=4
 project.charset=UTF-8
 target1.editor.height=700
@@ -73,13 +47,8 @@ target1.x=160
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
-<<<<<<< HEAD
-target2.editor.x=1091
-target2.editor.y=267
-=======
 target2.editor.x=105
 target2.editor.y=52
->>>>>>> f0c6e053f2315843fb881722d069bd7e0d51f860
 target2.height=50
 target2.name=game
 target2.naviview.expanded=true
@@ -91,8 +60,8 @@ target2.x=70
 target2.y=70
 target3.editor.height=700
 target3.editor.width=900
-target3.editor.x=605
-target3.editor.y=380
+target3.editor.x=1020
+target3.editor.y=206
 target3.height=50
 target3.name=YSD
 target3.naviview.expanded=true
@@ -104,13 +73,8 @@ target3.x=160
 target3.y=10
 target4.editor.height=700
 target4.editor.width=900
-<<<<<<< HEAD
-target4.editor.x=1151
-target4.editor.y=372
-=======
 target4.editor.x=595
 target4.editor.y=80
->>>>>>> 5f0299d98ce73460ac4e4a6b40a1d1c7efbbf63d
 target4.height=50
 target4.name=MyWorld
 target4.naviview.expanded=true
