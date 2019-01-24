@@ -21,6 +21,7 @@ public class YSD extends Actor
     }
     public void act() 
     {
+<<<<<<< HEAD
         move();
         fall();
         if(Greenfoot.isKeyDown("up") && getY()> getWorld().getHeight()-195) jump();
@@ -58,5 +59,11 @@ public class YSD extends Actor
        }
     }
 }// Add your action code here.
+=======
+
+}// Add your action code here. 
+
+       }// Add your action code here.
+>>>>>>> 95aae1130b9818c9616660ef5fcae93ba496dc7f
 
 
