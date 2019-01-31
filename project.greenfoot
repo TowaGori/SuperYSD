@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=24882a35f415e0146f39ca21f0e6914b04ceaa1c
+>>>>>>>=fb2db0153963c04acca92a8bec8d4bff840717b7
 class.Enemy.image=bee.png
 class.Enemy.superclass=greenfoot.Actor
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
@@ -41,25 +41,18 @@ dependency6.type=UsesDependency
 dependency7.from=YSD
 dependency7.to=Enemy
 dependency7.type=UsesDependency
-dependency8.from=block
-dependency8.to=YSD
+dependency8.from=game
+dependency8.to=block
 dependency8.type=UsesDependency
 dependency9.from=game
 dependency9.to=block
 dependency9.type=UsesDependency
 mainWindow.height=940
 mainWindow.width=1379
-<<<<<<< HEAD
-mainWindow.x=252
-mainWindow.y=105
-package.numDependencies=11
-package.numTargets=6
-=======
 mainWindow.x=76
-mainWindow.y=95
-package.numDependencies=7
-package.numTargets=5
->>>>>>> fb2db0153963c04acca92a8bec8d4bff840717b7
+mainWindow.y=140
+package.numDependencies=8
+package.numTargets=6
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
@@ -74,17 +67,10 @@ target1.typeParameters=
 target1.width=80
 target1.x=160
 target1.y=70
-<<<<<<< HEAD
-target2.editor.height=470
-target2.editor.width=582
-target2.editor.x=595
-target2.editor.y=220
-=======
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=105
-target2.editor.y=52
->>>>>>> fb2db0153963c04acca92a8bec8d4bff840717b7
+target2.editor.y=108
 target2.height=50
 target2.name=game
 target2.naviview.expanded=true
@@ -107,17 +93,10 @@ target3.typeParameters=
 target3.width=80
 target3.x=10
 target3.y=130
-<<<<<<< HEAD
-target4.editor.height=366
-target4.editor.width=663
-target4.editor.x=1134
-target4.editor.y=68
-=======
 target4.editor.height=700
 target4.editor.width=900
 target4.editor.x=977
 target4.editor.y=348
->>>>>>> fb2db0153963c04acca92a8bec8d4bff840717b7
 target4.height=50
 target4.name=block
 target4.naviview.expanded=true
@@ -125,21 +104,12 @@ target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
 target4.width=80
-<<<<<<< HEAD
-target4.x=100
-target4.y=130
-target5.editor.height=477
-target5.editor.width=685
-target5.editor.x=1164
-target5.editor.y=556
-=======
 target4.x=160
 target4.y=10
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=65
 target5.editor.y=52
->>>>>>> fb2db0153963c04acca92a8bec8d4bff840717b7
 target5.height=50
 target5.name=YSD
 target5.naviview.expanded=true
