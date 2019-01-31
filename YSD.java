@@ -30,6 +30,10 @@ public class YSD extends Actor
          Greenfoot.stop();
          
         }
+        if(getX()> getWorld().getWidth()-10)
+        {
+            setLocation(0,600);
+        }
 
     }   
     public void fall()
