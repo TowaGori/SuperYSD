@@ -21,11 +21,7 @@ public class game extends World
         addObject( new YSD(), 0, 0 );
         addObject( new Enemy(), 1100, 500 );
           showText( "ﾋｨｲｲｲｲｲｲｲ ", 500, 300 );
-
-        
-        
-        
-
+          
     }
     public void act()
     {

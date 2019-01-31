@@ -1,7 +1,7 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=95aae1130b9818c9616660ef5fcae93ba496dc7f
+>>>>>>>=24882a35f415e0146f39ca21f0e6914b04ceaa1c
 class.Enemy.image=bee.png
 class.Enemy.superclass=greenfoot.Actor
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
@@ -35,17 +35,10 @@ dependency7.to=Enemy
 dependency7.type=UsesDependency
 mainWindow.height=940
 mainWindow.width=1379
-<<<<<<< HEAD
-mainWindow.x=236
-mainWindow.y=140
-package.numDependencies=5
-package.numTargets=4
-=======
 mainWindow.x=76
-mainWindow.y=67
+mainWindow.y=95
 package.numDependencies=7
 package.numTargets=5
->>>>>>> 24882a35f415e0146f39ca21f0e6914b04ceaa1c
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
@@ -63,7 +56,7 @@ target1.y=70
 target2.editor.height=700
 target2.editor.width=900
 target2.editor.x=105
-target2.editor.y=80
+target2.editor.y=52
 target2.height=50
 target2.name=game
 target2.naviview.expanded=true
@@ -76,7 +69,7 @@ target2.y=70
 target3.editor.height=700
 target3.editor.width=900
 target3.editor.x=1020
-target3.editor.y=290
+target3.editor.y=234
 target3.height=50
 target3.name=Enemy
 target3.naviview.expanded=false
@@ -88,8 +81,8 @@ target3.x=10
 target3.y=130
 target4.editor.height=700
 target4.editor.width=900
-target4.editor.x=1093
-target4.editor.y=134
+target4.editor.x=977
+target4.editor.y=348
 target4.height=50
 target4.name=YSD
 target4.naviview.expanded=true
@@ -102,7 +95,7 @@ target4.y=10
 target5.editor.height=700
 target5.editor.width=900
 target5.editor.x=65
-target5.editor.y=24
+target5.editor.y=52
 target5.height=50
 target5.name=MyWorld
 target5.naviview.expanded=true
