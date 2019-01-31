@@ -1,16 +1,24 @@
 #Greenfoot project file
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
+<<<<<<< HEAD
 >>>>>>>=95aae1130b9818c9616660ef5fcae93ba496dc7f
 class.Bee.image=bee.png
 class.Bee.superclass=Enemies
 class.Enemies.superclass=greenfoot.Actor
 class.HP.image=herz.png
 class.HP.superclass=greenfoot.Actor
+=======
+>>>>>>>=fb2db0153963c04acca92a8bec8d4bff840717b7
+class.Enemy.image=bee.png
+class.Enemy.superclass=greenfoot.Actor
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 class.MyWorld.image=\u30BF\u30A4\u30C8\u30EB\u753B\u9762\u6700\u65B0\u7248.jpg
 class.MyWorld.superclass=greenfoot.World
 class.YSD.image=YSDRIO.png
 class.YSD.superclass=greenfoot.Actor
+class.block.image=brick.jpg
+class.block.superclass=greenfoot.Actor
 class.game.image=\u57FA\u672C\u80CC\u666F.jpg
 class.game.superclass=greenfoot.World
 class.help.image=help.jpg
@@ -18,11 +26,19 @@ class.help.superclass=greenfoot.World
 dependency1.from=MyWorld
 dependency1.to=game
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=game
 dependency10.to=Bee
 dependency10.type=UsesDependency
 dependency11.from=YSD
 dependency11.to=Bee
+=======
+dependency10.from=YSD
+dependency10.to=block
+dependency10.type=UsesDependency
+dependency11.from=YSD
+dependency11.to=MyWorld
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 dependency11.type=UsesDependency
 dependency2.from=MyWorld
 dependency2.to=help
@@ -37,6 +53,7 @@ dependency5.from=game
 dependency5.to=MyWorld
 dependency5.type=UsesDependency
 dependency6.from=game
+<<<<<<< HEAD
 dependency6.to=HP
 dependency6.type=UsesDependency
 dependency7.from=YSD
@@ -54,6 +71,25 @@ mainWindow.x=479
 mainWindow.y=140
 package.numDependencies=11
 package.numTargets=7
+=======
+dependency6.to=Enemy
+dependency6.type=UsesDependency
+dependency7.from=YSD
+dependency7.to=Enemy
+dependency7.type=UsesDependency
+dependency8.from=game
+dependency8.to=block
+dependency8.type=UsesDependency
+dependency9.from=game
+dependency9.to=block
+dependency9.type=UsesDependency
+mainWindow.height=940
+mainWindow.width=1379
+mainWindow.x=76
+mainWindow.y=140
+package.numDependencies=8
+package.numTargets=6
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
@@ -70,8 +106,13 @@ target1.x=160
 target1.y=70
 target2.editor.height=700
 target2.editor.width=900
+<<<<<<< HEAD
 target2.editor.x=136
 target2.editor.y=52
+=======
+target2.editor.x=105
+target2.editor.y=108
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 target2.height=50
 target2.name=game
 target2.naviview.expanded=true
@@ -83,8 +124,13 @@ target2.x=70
 target2.y=70
 target3.editor.height=700
 target3.editor.width=900
+<<<<<<< HEAD
 target3.editor.x=130
 target3.editor.y=112
+=======
+target3.editor.x=691
+target3.editor.y=292
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 target3.height=50
 target3.name=Bee
 target3.naviview.expanded=false
@@ -96,11 +142,19 @@ target3.x=10
 target3.y=130
 target4.editor.height=700
 target4.editor.width=900
+<<<<<<< HEAD
 target4.editor.x=105
 target4.editor.y=72
 target4.height=50
 target4.name=Enemies
 target4.naviview.expanded=false
+=======
+target4.editor.x=977
+target4.editor.y=348
+target4.height=50
+target4.name=block
+target4.naviview.expanded=true
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=
@@ -109,15 +163,24 @@ target4.x=190
 target4.y=130
 target5.editor.height=700
 target5.editor.width=900
+<<<<<<< HEAD
 target5.editor.x=105
 target5.editor.y=80
 target5.height=50
 target5.name=HP
 target5.naviview.expanded=false
+=======
+target5.editor.x=65
+target5.editor.y=52
+target5.height=50
+target5.name=YSD
+target5.naviview.expanded=true
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 target5.showInterface=false
 target5.type=ClassTarget
 target5.typeParameters=
 target5.width=80
+<<<<<<< HEAD
 target5.x=100
 target5.y=130
 target6.editor.height=700
@@ -126,11 +189,22 @@ target6.editor.x=365
 target6.editor.y=80
 target6.height=50
 target6.name=YSD
+=======
+target5.x=160
+target5.y=10
+target6.editor.height=434
+target6.editor.width=516
+target6.editor.x=1219
+target6.editor.y=646
+target6.height=50
+target6.name=MyWorld
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 target6.naviview.expanded=true
 target6.showInterface=false
 target6.type=ClassTarget
 target6.typeParameters=
 target6.width=80
+<<<<<<< HEAD
 target6.x=160
 target6.y=10
 target7.editor.height=700
@@ -146,5 +220,9 @@ target7.typeParameters=
 target7.width=80
 target7.x=70
 target7.y=10
+=======
+target6.x=70
+target6.y=10
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 version=2.7.1
 world.lastInstantiated=MyWorld

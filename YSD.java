@@ -21,6 +21,7 @@ public class YSD extends Actor
     }
     public void act() 
     {
+<<<<<<< HEAD
         move();
         fall();
         if(Greenfoot.isKeyDown("up") && getY()> getWorld().getHeight()-195) jump();
@@ -30,6 +31,20 @@ public class YSD extends Actor
         
         // Greenfoot.stop();}
         
+=======
+
+        move();
+        fall();
+        if(Greenfoot.isKeyDown("up") && getY()> getWorld().getHeight()-195) jump();
+        if (isTouching (Enemy.class)){ 
+         removeTouching(Enemy.class);
+         Greenfoot.stop();
+         
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
+        }
+        if(getX()> getWorld().getWidth()-10)
+        {
+            setLocation(0,600);
         }
 
     }   
@@ -51,14 +66,29 @@ public class YSD extends Actor
     public void jump(){
         velocity=-15;
     }
+<<<<<<< HEAD
          public void eat(){
        Actor actor = getOneObjectAtOffset( 0, 0, Enemies.class );
+=======
+    public void eat(){
+       Actor actor = getOneObjectAtOffset( 0, 0, Enemy.class );
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
        if( actor != null ){
        getWorld().showText( "HOGE", 100, 50 );
        Greenfoot.stop();
        }
     }
+<<<<<<< HEAD
 }// Add your action code here.
+=======
+}
+    
+
+
+
+
+
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
 
 
 
