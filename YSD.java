@@ -25,9 +25,7 @@ public class YSD extends Actor
         move();
         fall();
         if(Greenfoot.isKeyDown("up") && getY()> getWorld().getHeight()-195) jump();
-        if (isTouching (Enemy.class))
-        {
-            
+        if (isTouching (Enemy.class)){ 
          removeTouching(Enemy.class);
          Greenfoot.stop();
          
@@ -52,14 +50,15 @@ public class YSD extends Actor
     public void jump(){
         velocity=-15;
     }
-         public void eat(){
+    public void eat(){
        Actor actor = getOneObjectAtOffset( 0, 0, Enemy.class );
        if( actor != null ){
        getWorld().showText( "HOGE", 100, 50 );
        Greenfoot.stop();
        }
     }
-}// Add your action code here.
+}
+    
 
 
 
