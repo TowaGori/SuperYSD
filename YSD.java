@@ -21,15 +21,15 @@ public class YSD extends Actor
     }
     public void act() 
     {
-<<<<<<< HEAD
         move();
         fall();
         if(Greenfoot.isKeyDown("up") && getY()> getWorld().getHeight()-195) jump();
-        if (isTouching (Enemy.class))
+        if (isTouching (Enemies.class))
         {
-         removeTouching(Enemy.class);
-         Greenfoot.stop();
-         
+         removeTouching(HP.class);
+        
+        // Greenfoot.stop();}
+        
         }
 
     }   
@@ -52,18 +52,13 @@ public class YSD extends Actor
         velocity=-15;
     }
          public void eat(){
-       Actor actor = getOneObjectAtOffset( 0, 0, Enemy.class );
+       Actor actor = getOneObjectAtOffset( 0, 0, Enemies.class );
        if( actor != null ){
        getWorld().showText( "HOGE", 100, 50 );
        Greenfoot.stop();
        }
     }
 }// Add your action code here.
-=======
 
-}// Add your action code here. 
-
-       }// Add your action code here.
->>>>>>> 95aae1130b9818c9616660ef5fcae93ba496dc7f
 
 
