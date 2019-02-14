@@ -15,5 +15,5 @@ public class block extends Actor
     public void act() 
     {
         getImage().scale( 70, 70 );
-    }    
+}
 }

@@ -30,19 +30,51 @@ public class YSD extends Actor
          Greenfoot.stop();
          
         }
-        if(getX()> getWorld().getWidth()-10)
-        {
-            setLocation(0,600);
+        if (isTouching (block.class)){ 
+        
+         Greenfoot.stop();
+         
         }
+        if(getX()> getWorld().getWidth()-10){
+            setLocation(0,getY());
+            getWorld().removeObject( block.class );
+            int ran = (int)(Math.random()*4);//０～３の乱数をつくる
+            switch(ran){
+                
+                case 0:
+                    addObject( new block(), 150, 450 );
+                    addObject( new block(), 200, 450 );
+                    addObject( new block(), 575, 450 );
+                    break;
+                
+                case 1:
+                    addObject( new block(), 550, 450 );
+                    addObject( new block(), 600, 450 );
+                    addObject( new block(), 875, 450 );
+                    break;
+                
+                case 2:
+                    addObject( new block(), 150, 450 );
+                    addObject( new block(), 200, 450 );
+                    addObject( new block(), 575, 450 );
+                    break;
+                
+                case 3:
+                    addObject( new block(), 550, 450 );
+                    addObject( new block(), 600, 450 );
+                    addObject( new block(), 875, 450 );
+                    break;
+            
+            }
 
-    }   
-    public void fall()
-    {
+        }
+    }
+    public void fall(){
         setLocation(getX(),getY()+velocity);
         if (getY()> getWorld().getHeight()-195) velocity=0;
         else
         velocity=velocity+GRAVITY;
-        }
+       }
     public void move(){
         int x= getX();
         int y= getY();
@@ -50,24 +82,15 @@ public class YSD extends Actor
         if(Greenfoot.isKeyDown("left"))x-=6;
         if(Greenfoot.isKeyDown("right"))x+=6;
         setLocation(x,y);
-    }
+       }
     public void jump(){
-        velocity=-15;
-    }
+        velocity=-25;
+       }
     public void eat(){
        Actor actor = getOneObjectAtOffset( 0, 0, Enemy.class );
        if( actor != null ){
-       getWorld().showText( "HOGE", 100, 50 );
-       Greenfoot.stop();
+           getWorld().showText( "HOGE", 100, 50 );
+           Greenfoot.stop();
        }
+      }
     }
-}
-    
-
-
-
-
-
-
-
-

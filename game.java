@@ -19,28 +19,16 @@ public class game extends World
         super(1123, 794, 1); 
 
         addObject( new YSD(), 0, 0 );
-        addObject( new Enemy(), 1100, 500 );
-          showText( "ﾋｨｲｲｲｲｲｲｲ ", 500, 300 );
+        //addObject( new Enemy(), 1100, 500 );
+          //showText( "ﾋｨｲｲｲｲｲｲｲ ", 500, 300 );
 
         
-        addObject( new block(), 550, 400 );
-        addObject( new block(), 700, 400 );
-        addObject( new block(), 775, 400 );
+        addObject( new block(), 550, 450 );
+        addObject( new block(), 700, 450 );
+        addObject( new block(), 775, 450 );
+
     }     
 
           
     }
 
-
-
-            System.exit(0);
-
-    }
-    
-    if( Greenfoot.isKeyDown( "t" ) ){
-        World game = new MyWorld();
-        Greenfoot.setWorld( game );
-        
-    }
-}
-}
