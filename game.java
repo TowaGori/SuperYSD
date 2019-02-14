@@ -17,6 +17,14 @@ public class game extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1123, 794, 1); 
+<<<<<<< HEAD
+        addObject( new YSD(), 0, 0 );
+        addObject( new HP(), 900, 100 );
+        addObject( new HP(), 960, 100 );
+        addObject( new HP(), 1020, 100 );
+        addObject( new Bee(), 600, 500 );
+        
+=======
 
         addObject( new YSD(), 0, 0 );
         //addObject( new Enemy(), 1100, 500 );
@@ -30,5 +38,6 @@ public class game extends World
     }     
 
           
+>>>>>>> e846dc53683907e692e6879dfc7e7f1f6c7e5ff8
     }
 
